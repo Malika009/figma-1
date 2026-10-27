@@ -1,0 +1,573 @@
+/* =========================
+   ADAPTIVE
+========================= */
+
+/* 1024px */
+@media (max-width: 1024px) {
+
+    .conteiner {
+        width: 90%;
+    }
+
+    nav {
+        padding-top: 35px;
+    }
+
+    .nav-links {
+        gap: 25px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .hero {
+        margin-top: 60px;
+        gap: 30px;
+    }
+
+    .text h1 {
+        font-size: 45px;
+    }
+
+    .text h5 {
+        font-size: 22px;
+    }
+
+    .text p {
+        font-size: 21px;
+    }
+
+    .hero img {
+        max-width: 45%;
+        height: auto;
+    }
+
+    .services {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .services-title h2 {
+        font-size: 40px;
+    }
+
+    .services-title p {
+        width: 60%;
+    }
+
+    .services-cards {
+        gap: 20px;
+    }
+
+    .services-card {
+        width: 32%;
+        padding: 20px;
+    }
+
+    .services-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .milestones {
+        padding: 80px 0 100px;
+    }
+
+    .milestone-cards {
+        gap: 20px;
+    }
+
+    .milestones-card {
+        width: 24%;
+    }
+
+    .milestones h2 {
+        font-size: 40px;
+    }
+
+    .testimonial-cards {
+        gap: 20px;
+    }
+
+    .testimonial-card {
+        width: 23%;
+    }
+
+    .testimonials h2 {
+        font-size: 42px;
+    }
+}
+
+
+/* =========================
+   768px
+========================= */
+
+@media (max-width: 768px) {
+
+    .conteiner {
+        width: 90%;
+    }
+
+    nav {
+        padding-top: 25px;
+    }
+
+    .nav-logo h3 {
+        font-size: 22px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    /* HERO */
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .hero img {
+        max-width: 70%;
+        margin-top: 30px;
+    }
+
+    .text h5 {
+        font-size: 20px;
+    }
+
+    .text h1 {
+        font-size: 42px;
+    }
+
+    .text p {
+        font-size: 19px;
+    }
+
+    .btns {
+        justify-content: center;
+    }
+
+    /* SERVICES */
+
+    .services-title h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .services-title p {
+        width: 80%;
+    }
+
+    .services-cards {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .services-card {
+        width: 47%;
+    }
+
+    .services-card img {
+        width: 100%;
+    }
+
+    /* MILESTONES */
+
+    .milestones {
+        padding: 70px 0 80px;
+    }
+
+    .milestones h2 {
+        font-size: 35px;
+        margin-bottom: 45px;
+    }
+
+    .milestone-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .milestones-card {
+        width: 45%;
+    }
+
+    /* TESTIMONIALS */
+
+    .testimonials {
+        margin-top: 70px;
+        margin-bottom: 80px;
+    }
+
+    .testimonials h2 {
+        font-size: 38px;
+        text-align: center;
+        margin: 30px 0 40px;
+    }
+
+    .testimonial-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .testimonial-card {
+        width: 45%;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .footer-logo,
+    .footer-contact {
+        justify-content: center;
+    }
+}
+
+
+/* =========================
+   480px
+========================= */
+
+@media (max-width: 480px) {
+
+    .conteiner {
+        width: 92%;
+    }
+
+    /* NAV */
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    .nav-logo h3 {
+        font-size: 22px;
+    }
+
+    .nav-links {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    /* HERO */
+
+    .hero {
+        margin-top: 40px;
+    }
+
+    .text h5 {
+        font-size: 18px;
+    }
+
+    .text h1 {
+        font-size: 34px;
+        line-height: 1.15;
+        margin: 10px 0;
+    }
+
+    .text p {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .btns {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .btn1,
+    .btn2 {
+        width: 220px;
+    }
+
+    .hero img {
+        max-width: 85%;
+    }
+
+    /* SERVICES */
+
+    .services {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .services-title h4 {
+        font-size: 17px;
+    }
+
+    .services-title h2 {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .services-title p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .services-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .services-card h3 {
+        font-size: 22px;
+    }
+
+    /* MILESTONES */
+
+    .milestones {
+        padding: 60px 0;
+        margin-top: 60px;
+    }
+
+    .milestones h4 {
+        font-size: 17px;
+    }
+
+    .milestones h2 {
+        font-size: 30px;
+        margin: 15px 0 35px;
+    }
+
+    .milestones-card {
+        width: 100%;
+    }
+
+    .milestones-card h3 {
+        font-size: 38px;
+    }
+
+    .milestones-card p {
+        font-size: 18px;
+    }
+
+    /* TESTIMONIALS */
+
+    .testimonials {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .testimonials h4 {
+        font-size: 17px;
+    }
+
+    .testimonials h2 {
+        font-size: 30px;
+        margin: 20px 0 30px;
+    }
+
+    .testimonial-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        width: 100%;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding: 35px 0;
+    }
+
+    .footer-logo {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .footer-logo h3 {
+        margin-right: 0;
+    }
+
+    .footer-contact {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-contact h4 {
+        margin-right: 0;
+    }
+}
+
+
+/* =========================
+   430px
+========================= */
+
+@media (max-width: 430px) {
+
+    .nav-links {
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    .text h1 {
+        font-size: 31px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+    .hero img {
+        max-width: 90%;
+    }
+
+    .services-title h2 {
+        font-size: 28px;
+    }
+
+    .milestones h2 {
+        font-size: 28px;
+    }
+
+    .testimonials h2 {
+        font-size: 28px;
+    }
+
+    .btn1,
+    .btn2 {
+        width: 210px;
+    }
+}
+
+
+/* =========================
+   375px
+========================= */
+
+@media (max-width: 375px) {
+
+    .conteiner {
+        width: 94%;
+    }
+
+    .nav-logo h3 {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .hero {
+        margin-top: 30px;
+    }
+
+    .text h5 {
+        font-size: 16px;
+    }
+
+    .text h1 {
+        font-size: 28px;
+    }
+
+    .text p {
+        font-size: 15px;
+    }
+
+    .btn1,
+    .btn2 {
+        width: 200px;
+        height: 45px;
+    }
+
+    .services-title h4,
+    .milestones h4,
+    .testimonials h4 {
+        font-size: 15px;
+    }
+
+    .services-title h2,
+    .milestones h2,
+    .testimonials h2 {
+        font-size: 25px;
+    }
+
+    .services-title p {
+        font-size: 14px;
+    }
+
+    .services-card {
+        padding: 18px;
+    }
+
+    .services-card h3 {
+        font-size: 20px;
+    }
+
+    .services-card p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .milestones-card {
+        padding: 25px 15px;
+    }
+
+    .milestones-card h3 {
+        font-size: 34px;
+    }
+
+    .milestones-card p {
+        font-size: 16px;
+    }
+
+    .testimonial-card {
+        padding: 25px 15px;
+    }
+
+    .testimonial-card p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .footer-logo h3 {
+        font-size: 21px;
+    }
+
+    .footer-logo p {
+        font-size: 13px;
+    }
+
+    .footer-contact h4 {
+        font-size: 15px;
+    }
+}
